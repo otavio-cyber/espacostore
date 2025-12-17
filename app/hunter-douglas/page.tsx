@@ -49,7 +49,7 @@ export default function ProdutosPage() {
   {[
     { nome: "Silhouette®", desc: "Elegância com controle suave de luz", img: "/silhouette-duolite.jpg" },
     { nome: "Pirouette®", desc: "Design revolucionário com lâminas flutuantes", img: "/pirouette.jpg" },
-    { nome: "Duette®", desc: "Eficiência energética com design em colmeia", img: "/douette.jpg" },
+    { nome: "Duette®", desc: "Eficiência energética com design em colmeia", img: "/do.jpg" },
     { nome: "Rolô", desc: "Praticidade e variedade de tecidos", img: "/rollo.jpg" },
     { nome: "Painel", desc: "Solução moderna para grandes áreas", img: "/painel.jpg" },
     { nome: "Romanas", desc: "Sofisticação clássica atemporal", img: "/romana.jpg" },
