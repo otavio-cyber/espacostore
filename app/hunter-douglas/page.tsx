@@ -46,27 +46,28 @@ export default function ProdutosPage() {
     </div>
 
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-      {[
-        { nome: "Silhouette®", desc: "Elegância com controle suave de luz", img: "silhouette-duolite.jpg" },
-        { nome: "Pirouette®", desc: "Design revolucionário com lâminas flutuantes", img: "/public/pirouette.jpg" },
-        { nome: "Duette®", desc: "Eficiência energética com design em colmeia", img: "/public/douette.jpg" },
-        { nome: "Rolô", desc: "Praticidade e variedade de tecidos", img: "/public/rollo.jpg" },
-        { nome: "Painel", desc: "Solução moderna para grandes áreas", img: "/public/painel.jpg" },
-        { nome: "Romanas", desc: "Sofisticação clássica atemporal", img: "/public/romana.jpg" },
-      ].map((produto) => (
-        <Card key={produto.nome} className="p-6 hover:shadow-xl transition-shadow">
-          <div className="h-48 bg-secondary mb-4 overflow-hidden">
-            <img
-              src={produto.img}
-              alt={produto.nome}
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <h3 className="font-serif text-2xl mb-2">{produto.nome}</h3>
-          <p className="text-muted-foreground text-sm">{produto.desc}</p>
-        </Card>
-      ))}
-    </div>
+  {[
+    { nome: "Silhouette®", desc: "Elegância com controle suave de luz", img: "/silhouette-duolite.jpg" },
+    { nome: "Pirouette®", desc: "Design revolucionário com lâminas flutuantes", img: "/pirouette.jpg" },
+    { nome: "Duette®", desc: "Eficiência energética com design em colmeia", img: "/douette.jpg" },
+    { nome: "Rolô", desc: "Praticidade e variedade de tecidos", img: "/rollo.jpg" },
+    { nome: "Painel", desc: "Solução moderna para grandes áreas", img: "/painel.jpg" },
+    { nome: "Romanas", desc: "Sofisticação clássica atemporal", img: "/romana.jpg" },
+  ].map((produto) => (
+    <Card key={produto.nome} className="p-6 hover:shadow-xl transition-shadow">
+      <div className="h-48 bg-secondary mb-4 overflow-hidden">
+        <img
+          src={produto.img}
+          alt={produto.nome}
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <h3 className="font-serif text-2xl mb-2">{produto.nome}</h3>
+      <p className="text-muted-foreground text-sm">{produto.desc}</p>
+    </Card>
+  ))}
+</div>
+
 
     <Card className="bg-accent/10 border-accent/20 p-8">
       
