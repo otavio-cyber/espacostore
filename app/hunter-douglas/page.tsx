@@ -47,7 +47,7 @@ export default function ProdutosPage() {
 
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
       {[
-        { nome: "Silhouette®", desc: "Elegância com controle suave de luz", img: "" },
+        { nome: "Silhouette®", desc: "Elegância com controle suave de luz", img: "silhouette-duolite.jpg" },
         { nome: "Pirouette®", desc: "Design revolucionário com lâminas flutuantes", img: "/public/pirouette.jpg" },
         { nome: "Duette®", desc: "Eficiência energética com design em colmeia", img: "/public/douette.jpg" },
         { nome: "Rolô", desc: "Praticidade e variedade de tecidos", img: "/public/rollo.jpg" },
