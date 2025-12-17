@@ -154,9 +154,9 @@ export default function ContatoPage() {
                       <div>
                         <h4 className="font-medium mb-1">Endereço</h4>
                         <p className="text-sm text-muted-foreground">
-                          Ribeirão Preto, SP
+                          R. Altíno Arantes, 1355 - Boulevard, 
                           <br />
-                          Brasil
+                          Ribeirão Preto - SP, 14025-030
                         </p>
                       </div>
                     </div>
