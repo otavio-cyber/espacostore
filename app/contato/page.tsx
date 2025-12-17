@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
@@ -10,7 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { MapPin, Phone, Mail, Clock } from "lucide-react"
 import { useState } from "react"
-
+import Image from "next/image"
 export default function ContatoPage() {
   const [formData, setFormData] = useState({
     nome: "",
