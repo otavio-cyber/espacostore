@@ -131,7 +131,7 @@ export default function ProjetosPage() {
         {/* HERO */}
         <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center">
           <div className="absolute inset-0 bg-black/60 z-10" />
-          <img src="/cortinas.jpg" className="absolute inset-0 w-full h-full object-cover" />
+          <img src="/cortinas-hero.jpg" className="absolute inset-0 w-full h-full object-cover"/>
           <div className="relative z-20 text-center text-white">
             <h1 className="font-serif text-6xl mb-4">Nossos Projetos</h1>
             <p className="text-xl">Transformando espaços com excelência</p>
