@@ -203,7 +203,7 @@ export default function ContatoPage() {
                     Prefere conversar pelo WhatsApp? Clique no botão abaixo para iniciar uma conversa
                   </p>
                   <Button asChild className="w-full">
-                    <a href="https://wa.me/5516300000000" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/551639315740" target="_blank" rel="noopener noreferrer">
                       Abrir WhatsApp
                     </a>
                   </Button>
@@ -213,12 +213,17 @@ export default function ContatoPage() {
           </div>
         </section>
 
-        {/* Mapa */}
-        <section className="h-96 bg-secondary">
-          <div className="w-full h-full flex items-center justify-center">
-            <p className="text-muted-foreground">[Mapa do Google Maps seria incorporado aqui]</p>
-          </div>
-        </section>
+       {/* Mapa */}
+<section className="w-full h-[400px] bg-secondary">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d1860.028604641393!2d-47.8091566!3d-21.1898862!3m2!1i1024!2i768!4f13.1!2m1!1sR%20Alt%C3%ADno%20Arantes%201355%20Boulevard%20Ribeir%C3%A3o%20Preto%20SP%2014025-030!5e0!3m2!1spt-BR!2sbr!4v1766222620713!5m2!1spt-BR!2sbr"
+    className="w-full h-full border-0"
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</section>
+
       </main>
       <Footer />
     </>
