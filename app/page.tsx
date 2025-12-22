@@ -50,7 +50,7 @@ export default function HomePage() {
                   Mais de duas décadas criando ambientes excepcionais
                 </h2>
                 <p className="text-muted-foreground leading-relaxed mb-6 text-lg">
-                  Fundada por Paulo Schwartzmann, a Espaço + consolidou-se em Ribeirão Preto como referência em
+                  Fundada por Paulo e Márcia Schwartzmann, a Espaço + consolidou-se em Ribeirão Preto como referência em
                   cortinas, persianas, toldos e produtos especiais Hunter Douglas.
                 </p>
                 <div className="space-y-3 mb-8">
