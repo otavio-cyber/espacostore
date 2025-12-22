@@ -47,7 +47,7 @@ export default function ServicosPage() {
         <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-black/70 to-black/50 z-10" />
           <img
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/services.png"
             alt="Serviços"
             className="absolute inset-0 w-full h-full object-cover"
           />
