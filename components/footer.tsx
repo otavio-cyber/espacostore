@@ -8,17 +8,18 @@ export function Footer() {
       <div className="container mx-auto px-4 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
-            <Image
-              src="/logoespaççomais.png"
-              alt="Espaço +"
-              width={160}
-              height={60}
-              className="h-20 w-auto mb-6 invert"
-            />
-            <p className="text-sm text-primary-foreground/80 leading-relaxed">
-              Referência em cortinas, persianas e soluções arquitetônicas desde 2001.
-            </p>
-          </div>
+  <Image
+    src="/logo-espaco-mais-footer.png"
+    alt="Espaço +"
+    width={160}
+    height={60}
+    className="h-20 w-auto mb-6"
+  />
+  <p className="text-sm text-primary-foreground/80 leading-relaxed">
+    Referência em cortinas, persianas e soluções arquitetônicas desde 2001.
+  </p>
+</div>
+
 
           <div>
             <h3 className="font-serif text-lg mb-4">Navegação</h3>
