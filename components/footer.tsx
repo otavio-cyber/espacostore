@@ -118,7 +118,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2 text-sm text-primary-foreground/80">
                 <Mail className="h-5 w-5 shrink-0 mt-0.5" />
-                <span>contato@lojaespacomais.com.br</span>
+                <span>paulo@espacomais.com</span>
               </li>
               <li className="flex items-start gap-2 text-sm text-primary-foreground/80">
                 <Clock className="h-5 w-5 shrink-0 mt-0.5" />

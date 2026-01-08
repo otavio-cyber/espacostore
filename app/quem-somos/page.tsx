@@ -118,7 +118,11 @@ export default function QuemSomosPage() {
                 "Durafloor",
                 "Eucafloor",
                 "Stobag",
-                "Parametre",
+                "Saint Gobain",
+                "Bess",
+                "Rampasso",
+                "WillerK",
+                "Bucalo",
               ].map((marca) => (
                 <div
                   key={marca}

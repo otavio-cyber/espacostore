@@ -77,7 +77,7 @@ export default function ProdutosPage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Visitar Site Hunter Douglas Architectural
+          Visitar Site Hunter Douglas
           <ExternalLink className="ml-2 h-4 w-4" />
         </a>
       </Button>
