@@ -73,7 +73,7 @@ export default function ProdutosPage() {
       
       <Button asChild variant="outline">
         <a
-          href="https://architectural.hunterdouglas.com.br"
+          href="https://hunterdouglas.com.br"
           target="_blank"
           rel="noopener noreferrer"
         >
