@@ -177,7 +177,7 @@ export default function ContatoPage() {
                       </div>
                       <div>
                         <h4 className="font-medium mb-1">E-mail</h4>
-                        <p className="text-sm text-muted-foreground">contato@espacomais.com.br</p>
+                        <p className="text-sm text-muted-foreground">paulo@espacomais.com</p>
                       </div>
                     </div>
 
